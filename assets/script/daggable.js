@@ -2,13 +2,13 @@ const CARD_W = 400;
 const CARD_H = 400 * (1350 / 1080); // = 375
 
 const images = [
-  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-19.png', label: 'Alpine Serenity', tag: 'landscape' },
-  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-21.png', label: 'Portrait Study',  tag: 'people'   },
-  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-22.png', label: 'Urban Texture',   tag: 'city'     },
-  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-23.png', label: 'Still Waters',    tag: 'nature'   },
-  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-24.png', label: 'Night Exposure',  tag: 'long exp.'},
-  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-25.png', label: 'Minimalism',      tag: 'abstract' },
-  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-26.png', label: 'Minimalism',      tag: 'abstract' },
+  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-19.jpg', label: 'Alpine Serenity', tag: 'landscape' },
+  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-21.jpg', label: 'Portrait Study',  tag: 'people'   },
+  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-22.jpg', label: 'Urban Texture',   tag: 'city'     },
+  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-23.jpg', label: 'Still Waters',    tag: 'nature'   },
+  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-24.jpg', label: 'Night Exposure',  tag: 'long exp.'},
+  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-25.jpg', label: 'Minimalism',      tag: 'abstract' },
+  { src: 'assets/images/posts/Instagram/nairanrrawaa-post-26.jpg', label: 'Minimalism',      tag: 'abstract' },
 ];
 
 const fanTargets = [
@@ -130,5 +130,5 @@ function makeDraggable(el) {
     document.addEventListener('mousemove', onMove);
     document.addEventListener('mouseup', onUp);
   });
-  
+
 }
